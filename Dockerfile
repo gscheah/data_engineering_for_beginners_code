@@ -16,7 +16,7 @@ ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 ENV PATH=$JAVA_HOME/bin:$PATH
 
 # Install Spark 
-ENV SPARK_VERSION=4.0.1
+ENV SPARK_VERSION=4.1.1
 ENV SPARK_HOME=/opt/spark
 RUN wget --progress=bar:force \
 https://dlcdn.apache.org/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop3.tgz && \
